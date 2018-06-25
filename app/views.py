@@ -10,7 +10,6 @@ CONNECTED_NODE_ADDRESS = "http://127.0.0.1:8000"
 
 posts = []
 
-
 def fetch_posts():
     get_chain_address = "{}/chain".format(CONNECTED_NODE_ADDRESS)
     response = requests.get(get_chain_address)

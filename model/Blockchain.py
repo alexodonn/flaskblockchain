@@ -4,7 +4,7 @@ import time
 
 class Blockchain:
     # difficulty of PoW algorithm
-    difficulty = 2
+    difficulty = 8
 
     def __init__(self):
         # data yet to get into blockchain

@@ -1,3 +1,5 @@
+# file that launched the api
+
 from model.Block import Block
 from model.Blockchain import Blockchain
 from flask import Flask, request
