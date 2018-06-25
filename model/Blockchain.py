@@ -70,4 +70,5 @@ class Blockchain:
         proof = self.proof_of_work(new_block)
         self.add_block(new_block, proof)
         self.uncomfirmed_transactions = [0]
+
         return new_block.index
